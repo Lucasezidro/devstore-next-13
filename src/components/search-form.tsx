@@ -33,7 +33,7 @@ export function SearchForm() {
       <Search className="w-5 h-5 text-zinc-500" />
 
       <input
-        type="text"
+        type="search"
         defaultValue={query ?? ''}
         placeholder="Buscar produtos"
         className="flex-1 bg-transparent text-sm outline-none placeholder:text-zinc-500"
